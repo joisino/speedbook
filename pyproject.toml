@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "speedbook"
+version = "0.1.0"
+description = "深層ニューラルネットワークの高速化 https://www.amazon.co.jp/dp/4297143097"
+authors = ["joisino <joisinoo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11.9"
+torch = "~2.3.1"
+torchvision = "~0.18.1"
+openvino = "^2024.3.0"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.1"
+gdown = "^5.2.0"
+deepsparse = "~1.7.1"
+jupyterlab = "^4.2.4"
+ipywidgets = "^8.1.3"
+intel-extension-for-pytorch = "~2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
