@@ -8,6 +8,8 @@
 | p.110 | 18 行目 | `loss_distill = criterion(outputs / temperature, outputs_teacher / temperature) * temperature * temperature` | ※1 | |  |
 | p.112 | 式 (5.7) | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(t,q,k)})$ | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(s,q,k)})$ | |  |
 | p.112 | 式 (5.9) | $\text{KL}(A_{ij}^{(t,v,v)} \\\\| A_{ij}^{(t,v,v)})$ | $\text{KL}(A_{ij}^{(t,v,v)} \\\\| A_{ij}^{(s,v,v)})$ | |  |
+| p.142 | 式 (6.86) 下 | 標準正規分布より | 各成分が標準正規分布より | |  |
+| p.142 | 式 (6.86) 下 | $b \in \mathbb{R}$ | $b_i \in \mathbb{R}$ | |  |
 | p.150 | 式 (6.147) 上 | 注機構 | 注意機構 | |  |
 | p.159 | 第 7.1 節 4 行目 | Xception どの | Xception などの | |  |
 
