@@ -8,6 +8,7 @@
 | p.85 | 表 4.2 | CIFAR-10 $\uparrow$ | CIFAR-10 $\downarrow$ | |  |
 | p.85 | 表 4.2 | Sequential MNIST $\uparrow$ | Sequential MNIST $\downarrow$ | |  |
 | p.88 | 式 (4.11) | $\text{im2col}(X)\_{ijklm} = X\_{i, j + k - 1, l + m - 1}$ | $\text{im2col}(X)\_{ijklm} = X\_{i, l + j - 1, m + k - 1}$ | |  |
+| p.105 | 下から 4 行目 | 簡単になことが | 簡単になることが | |  |
 | p.109 | コード 5.1, 13 行目 | `evaluator.eval(model, device)` | `evaluator.eval(teacher, device)` | |  |
 | p.110 | 18 行目 | `loss_distill = criterion(outputs / temperature, outputs_teacher / temperature) * temperature * temperature` | ※1 | |  |
 | p.112 | 式 (5.7) | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(t,q,k)})$ | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(s,q,k)})$ | |  |
@@ -19,6 +20,8 @@
 | p.150 | 式 (6.147) | $Y\_i = \frac{H\_m \psi'(Q\_i)}{g\_m^\top \psi'(Q\_i)}$ | $Y\_m = \frac{H\_m \psi'(Q\_m)}{g\_m^\top \psi'(Q\_m)}$ | |  |
 | p.159 | 第 7.1 節 4 行目 | Xception どの | Xception などの | |  |
 | p.165 | 式 (7.18) | $Y\_i = \frac{H\_m \gamma(Q\_i)}{g\_m^\top \gamma(Q\_i)}$ | $Y\_m = \frac{H\_m \gamma(Q\_m)}{g\_m^\top \gamma(Q\_m)}$ | |  |
+| p.165 | 下から 9 行目 | 削減きます | 削減できます | |  |
+| p.170 | 図 7.2 のキャプション | $w$個の埋め込み | $W$個の埋め込み | |  |
 
 ※1：
 ```
