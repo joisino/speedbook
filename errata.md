@@ -13,6 +13,7 @@
 | p.85 | 表 4.2 | Sequential MNIST $\uparrow$ | Sequential MNIST $\downarrow$ | |  |
 | p.88 | 式 (4.11) | $\text{im2col}(X)\_{ijklm} = X\_{i, j + k - 1, l + m - 1}$ | $\text{im2col}(X)\_{ijklm} = X\_{i, l + j - 1, m + k - 1}$ | |  |
 | p.105 | 下から 4 行目 | 簡単になことが | 簡単になることが | |  |
+| p.109 |  | ResNext121 | ResNext101 | |  |
 | p.109 | コード 5.1, 13 行目 | `evaluator.eval(model, device)` | `evaluator.eval(teacher, device)` | |  |
 | p.110 | 18 行目 | `loss_distill = criterion(outputs / temperature, outputs_teacher / temperature) * temperature * temperature` | ※1 | |  |
 | p.112 | 式 (5.7) | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(t,q,k)})$ | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(s,q,k)})$ | |  |
