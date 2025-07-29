@@ -18,6 +18,8 @@
 | p.110 | 18 行目 | `loss_distill = criterion(outputs / temperature, outputs_teacher / temperature) * temperature * temperature` | ※1 | |  |
 | p.112 | 式 (5.7) | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(t,q,k)})$ | $\text{KL}(A_{ij}^{(t,q,k)} \\\\| A_{ij}^{(s,q,k)})$ | |  |
 | p.112 | 式 (5.9) | $\text{KL}(A_{ij}^{(t,v,v)} \\\\| A_{ij}^{(t,v,v)})$ | $\text{KL}(A_{ij}^{(t,v,v)} \\\\| A_{ij}^{(s,v,v)})$ | |  |
+| p.131 | 式 (6.39) | $B_{f,c,i,j}$ | $B_{d,c,i,j}$ | |  |
+| p.132 | 式 (6.52) とその上 | $B_{c,d,i,1}$ | $B_{d,c,i,1}$ | |  |
 | p.142 | 式 (6.86) 下 | 標準正規分布より | 各成分が標準正規分布より | |  |
 | p.142 | 式 (6.86) 下 | $b \in \mathbb{R}$ | $b_i \in \mathbb{R}$ | |  |
 | p.150 | 式 (6.144) | $\mathbb{R}^{m \times d'}$ | $\mathbb{R}^{n \times d'}$ | |  |
