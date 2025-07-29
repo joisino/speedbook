@@ -22,6 +22,7 @@
 | p.165 | 式 (7.18) | $Y\_i = \frac{H\_m \gamma(Q\_i)}{g\_m^\top \gamma(Q\_i)}$ | $Y\_m = \frac{H\_m \gamma(Q\_m)}{g\_m^\top \gamma(Q\_m)}$ | |  |
 | p.165 | 下から 9 行目 | 削減きます | 削減できます | |  |
 | p.170 | 図 7.2 のキャプション | $w$個の埋め込み | $W$個の埋め込み | |  |
+| p.172 | 本文 3 行目 | $X_{ij} \in \mathbb{R}^d$ | $X_i \in \mathbb{R}^d$ | |  |
 
 ※1：
 ```
