@@ -32,6 +32,9 @@
 | p.170 | 図 7.2 のキャプション | $w$個の埋め込み | $W$個の埋め込み | |  |
 | p.171 | 式 (7.31) 上 | $(j-1)$個の埋め込み | $(i-1)$個の埋め込み | |  |
 | p.172 | 本文 3 行目 | $X_{ij} \in \mathbb{R}^d$ | $X_i \in \mathbb{R}^d$ | |  |
+| p.181 | 本文 10, 13 行目 | $F \in \mathbb{R}^{C \times H \times W}$ | $F \in \mathbb{C}^{C \times H \times W}$ | |  |
+| p.181 | 本文 14 行目 | $F' \in \mathbb{R}^{C \times H' \times W'}$ | $F' \in \mathbb{C}^{C \times H' \times W'}$ | |  |
+| p.181 | 下から 6 行目 | $F' \in \mathbb{R}^{C \times H \times W'}$ | $F' \in \mathbb{C}^{C \times H \times W'}$ | |  |
 | p.183 | 本文 3 行目 | Monarch Mixier | Monarch Mixer | |  |
 
 ※1：
